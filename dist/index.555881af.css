@@ -1,0 +1,16 @@
+.toolbar {
+  background: var(--blue);
+  height: 100vh;
+}
+
+.toolbar .links ul {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  padding: 1em;
+  list-style-type: none;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.555881af.css.map */

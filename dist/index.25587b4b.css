@@ -1,0 +1,83 @@
+:root {
+  --purple: #5267df;
+  --red: #fa5959;
+  --blue: #242a45;
+  --grey: #9194a2;
+  --white: #f7f7f7;
+  --rose-700: #be123c;
+  --green: #21bd9d;
+}
+
+.table {
+  margin-bottom: 1em;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 10px;
+}
+
+table th {
+  text-align: center;
+  color: #fff;
+  background-color: #3e6070;
+  padding: 4px 30px 4px 2px;
+}
+
+table td {
+  border: 1px solid #e3e3e3;
+  padding: 4px 8px;
+}
+
+table tr:nth-child(2n+1) td {
+  background-color: #e7edf0;
+}
+
+.even {
+  display: flex;
+}
+
+.even > * {
+  flex-basis: 100%;
+}
+
+.grid-ish {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.grid-ish > * {
+  flex: 10em;
+}
+
+.side-bar {
+  display: flex;
+}
+
+.side-bar > :nth-child(2) {
+  flex: 70%;
+}
+
+.side-bar > :nth-child(1) {
+  max-width: 20%;
+  flex: 20%;
+}
+
+.btn {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 40px;
+  text-decoration: none;
+  position: relative;
+}
+
+.btn-1 {
+  color: #fff;
+  background: #add8e6;
+  border-radius: 30px;
+  transition: transform .3s, box-shadow .3s;
+  box-shadow: 0 0 #8f40f880, 0 0 #27c8ff80;
+}
+
+/*# sourceMappingURL=index.25587b4b.css.map */
